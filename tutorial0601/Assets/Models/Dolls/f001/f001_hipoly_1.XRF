@@ -1,0 +1,9 @@
+<MATERIAL VERSION="1100" NUMMAPS="3">
+    <AMBIENT>0 0 0 0</AMBIENT>
+    <DIFFUSE>0 0 0 255</DIFFUSE>
+    <SPECULAR>229 229 229 0</SPECULAR>
+    <SHININESS>0</SHININESS>
+    <MAP>f001_body_color_v1.tga</MAP>
+    <MAP>f001_body_specular.tga</MAP>
+    <MAP>&lt;none&gt;</MAP>
+</MATERIAL>
