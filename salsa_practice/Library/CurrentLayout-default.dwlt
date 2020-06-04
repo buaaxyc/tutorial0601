@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 342
     height: 501
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 107
+  controlID: 98
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 423
     height: 828
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 108
+  controlID: 103
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 109
+  controlID: 104
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -291,8 +291,8 @@ MonoBehaviour:
     y: 0
     width: 371
     height: 501
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -337,20 +337,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Models
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Tutorial\practice0602\salsa_practice\salsa_practice
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d4370000
-    m_LastClickedID: 14292
-    m_ExpandedIDs: 00000000c8370000d2370000d637000000ca9a3b
+    m_SelectedIDs: ee330000
+    m_LastClickedID: 13294
+    m_ExpandedIDs: 00000000da330000dc330000de33000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -378,7 +378,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c8370000ca370000cc370000ce370000d0370000d2370000d4370000d6370000d8370000da370000
+    m_ExpandedIDs: 00000000da330000dc330000de330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -501,9 +501,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 68e5ffff8ee5ffffdae7ffff10e8ffff24eaffff8aeaffff9eecffffc4ecffff28efffff4eefffffc2f1ffffc0f5ffff6afbffff
+      m_SelectedIDs: 7a370000
+      m_LastClickedID: 14202
+      m_ExpandedIDs: 68f4ffff7cf6ffffa2f6ffff68f8ffff7cfaffffa2faffff6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -613,11 +613,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.085636064, y: -0.4471675, z: 0.043064527, w: 0.889324}
     speed: 2
-    m_Value: {x: 0.08569867, y: -0.44582316, z: 0.042935077, w: 0.8899742}
+    m_Value: {x: 0.08563419, y: -0.44715768, z: 0.04306358, w: 0.8893045}
   m_Size:
     m_Target: 6.5309696
     speed: 2
-    m_Value: 6.2309694
+    m_Value: 6.5309696
   m_Ortho:
     m_Target: 0
     speed: 2
