@@ -296,109 +296,129 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 5.3430004, y: 5.46, z: -2.25}
---- !u!1001 &2070817380
+--- !u!1001 &2079881548
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.05
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0.05
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -4216859302048453862, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.05
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+    - target: {fileID: -927199367670048503, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
         type: 3}
       propertyPath: m_Name
-      value: f001_hi_max2008
+      value: f001_hi_max2008_test1
+      objectReference: {fileID: 0}
+    - target: {fileID: -613635260967875093, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -613635260967875093, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -613635260967875093, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -613635260967875093, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[2]
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 84d32f5d822f51940b2c2bd3dbae2be7, type: 3}
---- !u!1 &2070817381 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: b379f1a7b1d5d7f4e8d5328b341386f5, type: 3}
+--- !u!1 &2079881549 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
     type: 3}
-  m_PrefabInstance: {fileID: 2070817380}
+  m_PrefabInstance: {fileID: 2079881548}
   m_PrefabAsset: {fileID: 0}
---- !u!137 &2070817382 stripped
+--- !u!137 &2079881550 stripped
 SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -613635260967875093, guid: 84d32f5d822f51940b2c2bd3dbae2be7,
+  m_CorrespondingSourceObject: {fileID: -613635260967875093, guid: b379f1a7b1d5d7f4e8d5328b341386f5,
     type: 3}
-  m_PrefabInstance: {fileID: 2070817380}
+  m_PrefabInstance: {fileID: 2079881548}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2070817383
+--- !u!114 &2079881551
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070817381}
+  m_GameObject: {fileID: 2079881549}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 2069102741, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
@@ -412,27 +432,132 @@ MonoBehaviour:
   inspShowLids: 1
   inspShowLipsync: 1
   inspShowBlinks: 1
---- !u!114 &2070817384
+--- !u!82 &2079881552
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079881549}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: be7ce50a3d5c057459eba3f954cdbff3, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &2079881553
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070817381}
+  m_GameObject: {fileID: 2079881549}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1489447753, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
+  m_Script: {fileID: -1091098677, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emoterName: Emoter
-  queueProcessor: {fileID: 2070817383}
-  lipsyncEmphasisChance: 0.75
-  lipsyncEmphasisEmotes: []
-  repeaterEmotes: []
-  randomEmotes: []
-  emotes:
+  audioSrc: {fileID: 2079881552}
+  waitForAudioSource: 0
+  audioSourceWaitTarget: {fileID: 0}
+  useExternalAnalysis: 0
+  audioUpdateDelay: 0.08
+  analysisValue: 0
+  loCutoff: 0.03
+  hiCutoff: 0.75
+  playheadBias: 2800
+  autoAdjustAnalysis: 1
+  autoAdjustMicrophone: 0
+  microphone: 
+  microphoneRecordHeadPointer: 0
+  silencePulseThreshold: 3
+  queueProcessor: {fileID: 2079881551}
+  visemes:
   - expData:
-      name: emote 0
+      name: sayRest
       components:
       - name: component 0
         controlType: 0
@@ -440,14 +565,14 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.5
-        durationHold: 0.5
-        durationOff: 0.5
+        durationOn: 0.08
+        durationHold: 0
+        durationOff: 0.06
         isSmoothDisable: 0
         isPersistent: 0
-        expressionType: 1
+        expressionType: 0
         easing: 4
-        expressionHandler: 1
+        expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
         inspFoldout: 1
@@ -475,7 +600,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 2070817382}
+        smr: {fileID: 2079881550}
         blendIndex: 0
         minShape: 0
         maxShape: 1
@@ -495,31 +620,179 @@ MonoBehaviour:
         textures: []
         materialRenderer: {fileID: 0}
         materials: []
-      inspFoldout: 1
+      inspFoldout: 0
       previewDisplayMode: 0
       collectionExpand: 0
-    isRandomEmote: 0
-    isLipsyncEmphasisEmote: 0
-    isRepeaterEmote: 0
-    repeaterDelay: 0
-    startDelay: 0
-    isPersistent: 0
-    isHoldVariationExempt: 0
-    frac: 1
-  useRandomEmotes: 1
-  isChancePerEmote: 1
-  numRandomEmotesPerCycle: 0
-  randomEmoteMinTimer: 1
-  randomEmoteMaxTimer: 2
-  randomChance: 0.5
-  useRandomFrac: 0
-  randomFracBias: 0.5
-  useRandomHoldDuration: 0
-  randomHoldDurationMin: 0.1
-  randomHoldDurationMax: 0.5
-  configReady: 0
-  inspSalsaLinked: 0
+    trigger: 0
+  - expData:
+      name: saySml
+      components:
+      - name: component 0
+        controlType: 0
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.08
+        durationHold: 0
+        durationOff: 0.06
+        isSmoothDisable: 0
+        isPersistent: 0
+        expressionType: 0
+        easing: 4
+        expressionHandler: 0
+        isAnimatorControlled: 0
+        useOffset: 0
+        inspFoldout: 1
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+      controllerVars:
+      - bone: {fileID: 0}
+        baseTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        startTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 1
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 0
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 2079881550}
+        blendIndex: 1
+        minShape: 0
+        maxShape: 1
+        eyeGizmo: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      inspFoldout: 0
+      previewDisplayMode: 0
+      collectionExpand: 0
+    trigger: 0.11111112
+  - expData:
+      name: sayMed
+      components:
+      - name: component 0
+        controlType: 0
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.08
+        durationHold: 0
+        durationOff: 0.06
+        isSmoothDisable: 0
+        isPersistent: 0
+        expressionType: 0
+        easing: 4
+        expressionHandler: 0
+        isAnimatorControlled: 0
+        useOffset: 0
+        inspFoldout: 1
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+      controllerVars:
+      - bone: {fileID: 0}
+        baseTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        startTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 1
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 0
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 2079881550}
+        blendIndex: 2
+        minShape: 0
+        maxShape: 1
+        eyeGizmo: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      inspFoldout: 0
+      previewDisplayMode: 0
+      collectionExpand: 0
+    trigger: 0.44444448
+  sampleSize: 512
+  emoter: {fileID: 0}
+  emphasizerTrigger: 0.7
+  scaleExternalAnalysis: 0
+  useAdvDyn: 0
+  advDynPrimaryBias: 0.5
+  useAdvDynJitter: 0
+  advDynJitterAmount: 0.25
+  advDynJitterProb: 0.25
+  useAdvDynSecondaryMix: 0
+  advDynSecondaryMix: 0
+  useAdvDynRollback: 0
+  advDynRollback: 0.3
+  globalFrac: 1
+  dynaVariOn: 0.08
+  dynaVariHold: 0
+  dynaVariOff: 0.06
+  dynaVariEasing: 4
+  usePersistence: 0
+  useMergeBack: 0
+  useTimingsOverride: 0
+  globalDurON: 0.08
+  globalDurOFF: 0.06
+  globalDurOffBalance: 0
+  originalUpdateDelay: 0
+  globalNuanceBalance: 0
+  useEasingOverride: 0
+  globalEasing: 4
+  configReady: 1
   inspStateFoldoutProcessing: 1
-  inspStateFoldoutSettings: 0
-  inspStateFoldoutEmotes: 1
+  inspStateFoldoutSettings: 1
+  inspStateFoldoutVisemes: 1
   inspCollectionDisplayMode: 0
+  inspAnalysisDisplay: 0
+  inspOverrideSecondaryMix: 0
+  inspDetailedTimingAdjustments: 0
