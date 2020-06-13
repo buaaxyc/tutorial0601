@@ -79,8 +79,9 @@
     <Compile Include="Assets\Crazy Minnow Studio\SALSA with RandomEyes\Examples\Scripts\CSharp\CM_SalsaBroadcastEventTester.cs" />
     <Compile Include="Assets\Crazy Minnow Studio\SALSA with RandomEyes\Examples\Scripts\CSharp\CM_SalsaWaypoints.cs" />
     <Compile Include="Assets\Crazy Minnow Studio\SALSA with RandomEyes\Examples\Scripts\CSharp\CM_Waypoints.cs" />
+    <Compile Include="Assets\Scripts\AxisRectify.cs" />
+    <Compile Include="Assets\Scripts\BoxheadEyesRuntime.cs" />
     <Compile Include="Assets\Scripts\EmoteR_ManualEmote.cs" />
-    <Compile Include="Assets\Scripts\Position_transport.cs" />
     <None Include="Assets\Crazy Minnow Studio\SALSA with RandomEyes\ReadMe.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Unity/Hub/Editor/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
