@@ -682,9 +682,9 @@ MonoBehaviour:
     m_Options:
     - m_Text: none
       m_Image: {fileID: 0}
-    - m_Text: happy
+    - m_Text: smile
       m_Image: {fileID: 0}
-    - m_Text: sad
+    - m_Text: surprised
       m_Image: {fileID: 0}
     - m_Text: angry
       m_Image: {fileID: 0}
@@ -1448,7 +1448,7 @@ MonoBehaviour:
   randomEmotes: []
   emotes:
   - expData:
-      name: happy
+      name: smile
       components:
       - name: component 0
         controlType: 0
@@ -1492,7 +1492,7 @@ MonoBehaviour:
         umaUepProxy: {fileID: 0}
         uepAmount: 0
         smr: {fileID: 8609736776418665389}
-        blendIndex: 2
+        blendIndex: 8
         minShape: 0
         maxShape: 1
         eyeGizmo: {fileID: 0}
@@ -1523,7 +1523,7 @@ MonoBehaviour:
     isHoldVariationExempt: 0
     frac: 1
   - expData:
-      name: sad
+      name: surprised
       components:
       - name: component 0
         controlType: 0
@@ -1567,7 +1567,7 @@ MonoBehaviour:
         umaUepProxy: {fileID: 0}
         uepAmount: 0
         smr: {fileID: 8609736776418665389}
-        blendIndex: 0
+        blendIndex: 9
         minShape: 0
         maxShape: 1
         eyeGizmo: {fileID: 0}
@@ -1616,7 +1616,7 @@ MonoBehaviour:
         expressionHandler: 1
         isAnimatorControlled: 0
         useOffset: 0
-        inspFoldout: 1
+        inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -1642,7 +1642,7 @@ MonoBehaviour:
         umaUepProxy: {fileID: 0}
         uepAmount: 0
         smr: {fileID: 8609736776418665389}
-        blendIndex: 1
+        blendIndex: 10
         minShape: 0
         maxShape: 1
         eyeGizmo: {fileID: 0}
@@ -1687,7 +1687,7 @@ MonoBehaviour:
   inspSalsaLinked: 1
   inspStateFoldoutProcessing: 0
   inspStateFoldoutSettings: 0
-  inspStateFoldoutEmotes: 1
+  inspStateFoldoutEmotes: 0
   inspCollectionDisplayMode: 0
 --- !u!114 &1616260683
 MonoBehaviour:
@@ -1896,7 +1896,7 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -1916,7 +1916,7 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -1936,7 +1936,7 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -1956,7 +1956,7 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -2121,7 +2121,7 @@ MonoBehaviour:
         textures: []
         materialRenderer: {fileID: 0}
         materials: []
-      inspFoldout: 0
+      inspFoldout: 1
       previewDisplayMode: 0
       collectionExpand: 0
     gizmo: {fileID: 2082487926}
@@ -2154,9 +2154,9 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 0
         durationDelay: 0
-        durationOn: 0.1
+        durationOn: 0.07
         durationHold: 0
-        durationOff: 0.1
+        durationOff: 0.07
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 4
@@ -2209,7 +2209,7 @@ MonoBehaviour:
         textures: []
         materialRenderer: {fileID: 0}
         materials: []
-      inspFoldout: 0
+      inspFoldout: 1
       previewDisplayMode: 0
       collectionExpand: 0
     gizmo: {fileID: 0}
@@ -6855,6 +6855,8 @@ SkinnedMeshRenderer:
   - {fileID: 5815654587584369549}
   - {fileID: 3917179402681960761}
   m_BlendShapeWeights:
+  - 0
+  - 0
   - 0
   - 0
   - 0
