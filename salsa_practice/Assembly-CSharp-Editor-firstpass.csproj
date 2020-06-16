@@ -261,19 +261,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="SALSAEditor">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Assets/Crazy Minnow Studio/SALSA with RandomEyes/Editor/SALSAEditor.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Assets/Crazy Minnow Studio/SALSA with RandomEyes/Editor/SALSAEditor.dll</HintPath>
     </Reference>
     <Reference Include="SALSA">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Assets/Crazy Minnow Studio/SALSA with RandomEyes/Plugins/SALSA.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Assets/Crazy Minnow Studio/SALSA with RandomEyes/Plugins/SALSA.dll</HintPath>
     </Reference>
     <Reference Include="SALSA-LipSync-Editor">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Editor/SALSA-LipSync-Editor.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Editor/SALSA-LipSync-Editor.dll</HintPath>
     </Reference>
     <Reference Include="SALSA-LipSync">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Plugins/SALSA-LipSync.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Assets/Plugins/Crazy Minnow Studio/SALSA LipSync/Plugins/SALSA-LipSync.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Unity/Hub/Editor/2019.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -630,37 +630,37 @@
       <HintPath>D:/Unity/Hub/Editor/2019.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Unity Tutorial/practice0602/salsa_practice/salsa_practice/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Unity Tutorial/tutorial0601/salsa_practice/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
