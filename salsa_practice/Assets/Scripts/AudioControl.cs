@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using CrazyMinnow.SALSA;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,13 +7,19 @@ using UnityEngine.UI;
 public class AudioControl : MonoBehaviour
 {
     private bool playState = false;
-    public CrazyMinnow.SALSA.Salsa salsaInstance;          // reference to SALSA
+    //public CrazyMinnow.SALSA.Salsa salsaInstance;          // reference to SALSA
+    CrazyMinnow.SALSA.Salsa salsaInstance;
     public AudioClip audioClip;
 
     public Image m_Image;
     //Set this in the Inspector
     public Sprite playBtn;
     public Sprite pauseBtn;
+
+    private void Start()
+    {
+        salsaInstance = GetComponent<Salsa>();
+    }
 
     public void AudioPlay()
     {

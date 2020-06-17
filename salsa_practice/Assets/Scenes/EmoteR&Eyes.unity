@@ -1701,7 +1701,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb533935c26bca742a15ff43d0681155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emoter: {fileID: 1616260681}
   dropdown: {fileID: 393325417}
 --- !u!114 &1616260685
 MonoBehaviour:
@@ -6583,7 +6582,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fb3406a83907743b646c6439b09a5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  salsaInstance: {fileID: 8296172667578971985}
   audioClip: {fileID: 8300000, guid: fc8d3846d0edadb4f85c177a8d791ac4, type: 3}
   m_Image: {fileID: 3890408}
   playBtn: {fileID: 21300000, guid: 157e83f568eca524aa8432e7996a683b, type: 3}

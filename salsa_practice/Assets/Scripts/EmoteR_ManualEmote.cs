@@ -4,9 +4,15 @@ using UnityEngine.UI;
 
 public class EmoteR_ManualEmote : MonoBehaviour
 {
-    public Emoter emoter;
+    //public Emoter emoter;
+    Emoter emoter;
     public Dropdown dropdown;
     private bool emoteState = false;
+
+    private void Start()
+    {
+        emoter = GetComponent<Emoter>();
+    }
 
     public void TriggerEmote()
     {
@@ -17,7 +23,7 @@ public class EmoteR_ManualEmote : MonoBehaviour
             emoteState = !emoteState;
             emoter.ManualEmote(emoteName, ExpressionComponent.ExpressionHandler.RoundTrip, 2f);
         }
-        
+
     }
 
     public void ToggleEmote()
