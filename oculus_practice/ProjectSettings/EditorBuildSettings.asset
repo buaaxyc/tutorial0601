@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/BallGame.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/OculusLipSync.unity
+    guid: dd21f53ceb9374a40a9e4aca1f64c994
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8928d0f1d1269d646912652a64c008ed,
       type: 2}
