@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -148, y: 158}
+  m_AnchoredPosition: {x: -156, y: 158}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3890407
@@ -675,7 +675,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -93.8, y: 205}
+  m_AnchoredPosition: {x: -103, y: 205}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &393325417
@@ -6212,7 +6212,7 @@ MonoBehaviour:
   eyeRangeOfMotion2D: 0.1
   eyeRandom: 1
   eyeRandomFov: {x: 2.5, y: 5, z: 10}
-  eyeRandTrackFov: {x: 5, y: 1}
+  eyeRandTrackFov: {x: 2, y: 0.5}
   eyeRandTrackFovAffinity: {x: 0.2, y: 0.1}
   eyeRandTimerRange: {x: 0.5, y: 2}
   eyeRandTimer: 40.978916

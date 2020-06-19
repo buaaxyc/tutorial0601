@@ -856,7 +856,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: be7ce50a3d5c057459eba3f954cdbff3, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -960,7 +960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inspStateFoldoutReferences: 0
-  inspStateFoldoutHeads: 1
+  inspStateFoldoutHeads: 0
   inspStateFoldoutHeadProps: 1
   inspStateFoldoutAnimBones: 0
   inspStateFoldoutEyes: 0
