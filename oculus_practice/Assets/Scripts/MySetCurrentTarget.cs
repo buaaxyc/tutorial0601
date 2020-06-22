@@ -38,7 +38,7 @@ public class MySetCurrentTarget : MonoBehaviour
 
         // Initialize the proper target set
         targetSet = 0;
-        SwitchTargets[0].SetActive<OVRLipSyncContextMorphTarget>(0);
+        SwitchTargets[0].SetActive<OVRLipSyncContextMorphTarget>(2);
         //SwitchTargets[1].SetActive<OVRLipSyncContextMorphTarget>(0);
     }
 
@@ -56,12 +56,12 @@ public class MySetCurrentTarget : MonoBehaviour
             targetSet = 1;
             SetCurrentTarget();
         }
-        /*else if (Input.GetKeyDown(KeyCode.Alpha3))
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             targetSet = 2;
             SetCurrentTarget();
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        /*else if (Input.GetKeyDown(KeyCode.Alpha4))
         {
             targetSet = 3;
             SetCurrentTarget();
@@ -78,7 +78,7 @@ public class MySetCurrentTarget : MonoBehaviour
         }*/
 
         // Close app
-        if(Input.GetKeyDown (KeyCode.Escape))
+        if (Input.GetKeyDown (KeyCode.Escape))
            Application.Quit();
     }
 
@@ -93,12 +93,12 @@ public class MySetCurrentTarget : MonoBehaviour
             SwitchTargets[0].SetActive<OVRLipSyncContextMorphTarget>(0);
             //SwitchTargets[1].SetActive<OVRLipSyncContextMorphTarget>(0);
             break;
-        /*case(1):
-            SwitchTargets[0].SetActive<OVRLipSyncContextTextureFlip>(0);
-            SwitchTargets[1].SetActive<OVRLipSyncContextTextureFlip>(1);
-            break;*/
         case(1):
-            SwitchTargets[0].SetActive<OVRLipSyncContextMorphTarget>(1);
+            SwitchTargets[0].SetActive<OVRLipSyncContextTextureFlip>(1);
+            //SwitchTargets[1].SetActive<OVRLipSyncContextTextureFlip>(1);
+            break;
+        case(2):
+            SwitchTargets[0].SetActive<OVRLipSyncContextMorphTarget>(2);
             //SwitchTargets[1].SetActive<OVRLipSyncContextMorphTarget>(2);
             break;
         /*case(3):

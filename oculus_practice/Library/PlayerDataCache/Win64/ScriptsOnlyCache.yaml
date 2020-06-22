@@ -1,9 +1,18 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ColorController
+    - EnableSwitch
+    - MyContextMorphTarget
+    - MyHeadRotationCtrl
+    - MySetCurrentTarget
     - ONSPSettings
-    - PlayerController1
+    - OVRLipSync
+    - OVRLipSyncContext
+    - OVRLipSyncContextCanned
+    - OVRLipSyncDebugConsole
+    - OVRLipSyncMicInput
+    - OVRLipSyncSequence
+    - OvrAvatarSettings
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     Unity.Rider.Editor.dll:
@@ -21,13 +30,11 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/BallGame.unity:
+    Assets/Scenes/OculusLipSync.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -36,23 +43,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
     - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
       Script: {instanceID: 0}
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -67,22 +68,36 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11334}
     - Class: 114
-      Script: {instanceID: 11566}
-    - Class: 114
       Script: {instanceID: 12162}
     - Class: 114
-      Script: {instanceID: 12272}
+      Script: {instanceID: 12208}
     - Class: 114
-      Script: {instanceID: 12890}
+      Script: {instanceID: 12316}
     - Class: 114
-      Script: {instanceID: 13786}
+      Script: {instanceID: 12452}
     - Class: 114
-      Script: {instanceID: 14216}
+      Script: {instanceID: 12692}
+    - Class: 114
+      Script: {instanceID: 12748}
+    - Class: 114
+      Script: {instanceID: 12776}
+    - Class: 114
+      Script: {instanceID: 12838}
+    - Class: 114
+      Script: {instanceID: 12856}
+    - Class: 114
+      Script: {instanceID: 13222}
+    - Class: 114
+      Script: {instanceID: 13546}
+    - Class: 114
+      Script: {instanceID: 13790}
+    - Class: 114
+      Script: {instanceID: 14028}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
-    - Class: 135
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -889,6 +904,12 @@ ScriptsOnlyBuild:
     className: P2PNetworkBall
   - hash:
       serializedVersion: 2
+      Hash: b4b890ea24a5295228c12caebef33ce1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MyHeadRotationCtrl
+  - hash:
+      serializedVersion: 2
       Hash: 22dc216204f0e65ce2161bd7b6ecf06b
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -959,6 +980,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LocomotionController
+  - hash:
+      serializedVersion: 2
+      Hash: 1b862038859b267ceaddb5cf7530c567
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MySetCurrentTarget
   - hash:
       serializedVersion: 2
       Hash: 45f2a4e63a8b43166e3f85c4d543f00d
@@ -1555,6 +1582,12 @@ ScriptsOnlyBuild:
     className: TestScript
   - hash:
       serializedVersion: 2
+      Hash: b6752e8c9c8c3f91c96fb62e7dc1298b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MyContextMorphTarget
+  - hash:
+      serializedVersion: 2
       Hash: 1b862038859b267ceaddb5cf7530c567
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1753,5 +1786,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 19
   scenePathNames:
-  - Assets/Scenes/BallGame.unity
-  playerPath: "C:/Users/XYC/Desktop/\u7814/Oculus/BallGame/oculus_practice.exe"
+  - Assets/Scenes/OculusLipSync.unity
+  playerPath: "C:/Users/XYC/Desktop/\u7814/Oculus/OculusLipSync/oculus_practice.exe"
