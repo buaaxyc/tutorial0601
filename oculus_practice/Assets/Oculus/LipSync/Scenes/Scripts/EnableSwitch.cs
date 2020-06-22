@@ -14,6 +14,7 @@ public class EnableSwitch : MonoBehaviour
         if((target < 0) || (target >= SwitchTargets.Length))
             return false;
 
+        //Deactivate all SwitchTargets(Audio/Micro) and disable their morph behavior
         for (int i = 0; i < SwitchTargets.Length; i++)
         {
             SwitchTargets[i].SetActive(false);
@@ -29,6 +30,7 @@ public class EnableSwitch : MonoBehaviour
                 lipsyncContextTexture.enabled = false;
         }
 
+        //Activate the selected one and enable its morph behavior
         SwitchTargets[target].SetActive(true);
         MonoBehaviour lipsyncContext = SwitchTargets[target].GetComponent<T>();
         if (lipsyncContext != null)

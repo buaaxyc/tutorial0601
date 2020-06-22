@@ -221,6 +221,9 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
     <Compile Include="Assets\Scripts\ColorController.cs" />
+    <Compile Include="Assets\Scripts\MyContextMorphTarget.cs" />
+    <Compile Include="Assets\Scripts\MyHeadRotationCtrl.cs" />
+    <Compile Include="Assets\Scripts\MySetCurrentTarget.cs" />
     <Compile Include="Assets\Scripts\PlayerController1.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
