@@ -89,7 +89,7 @@ public class MyHeadRotationCtrl : MonoBehaviour
             //Debug.Log("Find 'Bip01 Head'");
             if (absolute)
             {
-                target.transform.rotation = new Quaternion(0, 0, 0, 0);
+                target.transform.rotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
 
                 //original code by Oculus
                 /*float deltaRotateUD = resetRotationUD - target.transform.eulerAngles.z;

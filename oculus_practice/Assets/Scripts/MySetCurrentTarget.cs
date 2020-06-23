@@ -31,7 +31,7 @@ public class MySetCurrentTarget : MonoBehaviour
     private int maxTarget = 6;
 
     // Use this for initialization
-    void Start ()
+    void Start()
     {
         // Add a listener to the OVRTouchpad for touch events
         OVRTouchpad.AddListener(LocalTouchEventCallback);
@@ -44,20 +44,25 @@ public class MySetCurrentTarget : MonoBehaviour
 
     // Update is called once per frame
     // Logic for LipSync_Demo
-    void Update ()
+    void Update()
     {
+        GameObject head = GameObject.Find("Bip01 Head");
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
+            //reset current character's head
+            head.transform.rotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
             targetSet = 0;
             SetCurrentTarget();
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
+            head.transform.rotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
             targetSet = 1;
             SetCurrentTarget();
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
+            head.transform.rotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
             targetSet = 2;
             SetCurrentTarget();
         }
@@ -78,8 +83,8 @@ public class MySetCurrentTarget : MonoBehaviour
         }*/
 
         // Close app
-        if (Input.GetKeyDown (KeyCode.Escape))
-           Application.Quit();
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
     }
 
     /// <summary>
@@ -87,32 +92,32 @@ public class MySetCurrentTarget : MonoBehaviour
     /// </summary>
     void SetCurrentTarget()
     {
-        switch(targetSet)
+        switch (targetSet)
         {
-        case(0):
-            SwitchTargets[0].SetActive<OVRLipSyncContextMorphTarget>(0);
-            //SwitchTargets[1].SetActive<OVRLipSyncContextMorphTarget>(0);
-            break;
-        case(1):
-            SwitchTargets[0].SetActive<OVRLipSyncContextTextureFlip>(1);
-            //SwitchTargets[1].SetActive<OVRLipSyncContextTextureFlip>(1);
-            break;
-        case(2):
-            SwitchTargets[0].SetActive<OVRLipSyncContextMorphTarget>(2);
-            //SwitchTargets[1].SetActive<OVRLipSyncContextMorphTarget>(2);
-            break;
-        /*case(3):
-            SwitchTargets[0].SetActive<OVRLipSyncContextTextureFlip>(1);
-            SwitchTargets[1].SetActive<OVRLipSyncContextTextureFlip>(3);
-            break;
-        case(4):
-            SwitchTargets[0].SetActive<OVRLipSyncContextMorphTarget>(2);
-            SwitchTargets[1].SetActive<OVRLipSyncContextMorphTarget>(4);
-            break;
-        case(5):
-            SwitchTargets[0].SetActive<OVRLipSyncContextTextureFlip>(2);
-            SwitchTargets[1].SetActive<OVRLipSyncContextTextureFlip>(5);
-            break;*/
+            case (0):
+                SwitchTargets[0].SetActive<OVRLipSyncContextMorphTarget>(0);
+                //SwitchTargets[1].SetActive<OVRLipSyncContextMorphTarget>(0);
+                break;
+            case (1):
+                SwitchTargets[0].SetActive<OVRLipSyncContextTextureFlip>(1);
+                //SwitchTargets[1].SetActive<OVRLipSyncContextTextureFlip>(1);
+                break;
+            case (2):
+                SwitchTargets[0].SetActive<OVRLipSyncContextMorphTarget>(2);
+                //SwitchTargets[1].SetActive<OVRLipSyncContextMorphTarget>(2);
+                break;
+                /*case(3):
+                    SwitchTargets[0].SetActive<OVRLipSyncContextTextureFlip>(1);
+                    SwitchTargets[1].SetActive<OVRLipSyncContextTextureFlip>(3);
+                    break;
+                case(4):
+                    SwitchTargets[0].SetActive<OVRLipSyncContextMorphTarget>(2);
+                    SwitchTargets[1].SetActive<OVRLipSyncContextMorphTarget>(4);
+                    break;
+                case(5):
+                    SwitchTargets[0].SetActive<OVRLipSyncContextTextureFlip>(2);
+                    SwitchTargets[1].SetActive<OVRLipSyncContextTextureFlip>(5);
+                    break;*/
         }
         OVRLipSyncDebugConsole.Clear();
     }
@@ -123,27 +128,27 @@ public class MySetCurrentTarget : MonoBehaviour
     /// <param name="touchEvent">Touch event.</param>
     void LocalTouchEventCallback(OVRTouchpad.TouchEvent touchEvent)
     {
-        switch(touchEvent)
+        switch (touchEvent)
         {
-            case(OVRTouchpad.TouchEvent.Left):
+            case (OVRTouchpad.TouchEvent.Left):
 
-            targetSet--;
-            if(targetSet < 0)
-                targetSet = maxTarget - 1;
+                targetSet--;
+                if (targetSet < 0)
+                    targetSet = maxTarget - 1;
 
-            SetCurrentTarget();
+                SetCurrentTarget();
 
-            break;
+                break;
 
-            case(OVRTouchpad.TouchEvent.Right):
+            case (OVRTouchpad.TouchEvent.Right):
 
-            targetSet++;
-            if(targetSet >= maxTarget)
-                targetSet = 0;
+                targetSet++;
+                if (targetSet >= maxTarget)
+                    targetSet = 0;
 
-            SetCurrentTarget();
+                SetCurrentTarget();
 
-            break;
+                break;
         }
     }
 }
