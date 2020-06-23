@@ -1447,7 +1447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fb3406a83907743b646c6439b09a5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 8300000, guid: 30c88b738a25dd94086a5426746d333c, type: 3}
+  audioClip: {fileID: 8300000, guid: fc8d3846d0edadb4f85c177a8d791ac4, type: 3}
   m_Image: {fileID: 3890408}
   playBtn: {fileID: 21300000, guid: 157e83f568eca524aa8432e7996a683b, type: 3}
   pauseBtn: {fileID: 21300000, guid: d97994fc05d31fd449a0b49d2efaa673, type: 3}
@@ -1481,7 +1481,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 30c88b738a25dd94086a5426746d333c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc8d3846d0edadb4f85c177a8d791ac4, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
