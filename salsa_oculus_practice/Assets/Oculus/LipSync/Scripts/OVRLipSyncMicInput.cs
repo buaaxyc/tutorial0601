@@ -47,7 +47,8 @@ public class OVRLipSyncMicInput : MonoBehaviour
     [Tooltip("Enable a keypress to toggle the microphone device selection GUI.")]
     public bool enableMicSelectionGUI = false;
     [Tooltip("Key to toggle the microphone selection GUI if enabled.")]
-    public KeyCode micSelectionGUIKey = KeyCode.M;
+    //public KeyCode micSelectionGUIKey = KeyCode.M;
+    public KeyCode micSelectionGUIKey = KeyCode.None;
 
     [SerializeField]
     [Range(0.0f, 100.0f)]
@@ -68,7 +69,8 @@ public class OVRLipSyncMicInput : MonoBehaviour
     public micActivation micControl = micActivation.ConstantSpeak;
     [Tooltip("Key used to drive Hold To Speak and Push To Speak methods" +
         " of microphone input control.")]
-    public KeyCode micActivationKey = KeyCode.Space;
+    //public KeyCode micActivationKey = KeyCode.Space;
+    public KeyCode micActivationKey = KeyCode.None;
 
     [Tooltip("Will contain the string name of the selected microphone device - read only.")]
     public string selectedDevice;
