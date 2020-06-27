@@ -223,7 +223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 452380, guid: 4dd277bd9572488489906165e0931952, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 452380, guid: 4dd277bd9572488489906165e0931952, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2037,7 +2037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22402796, guid: e4c63fc874ed2ed42b7808b1a310238a, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 22402796, guid: e4c63fc874ed2ed42b7808b1a310238a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2057,7 +2057,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22402796, guid: e4c63fc874ed2ed42b7808b1a310238a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 8.09
+      value: 8.05
       objectReference: {fileID: 0}
     - target: {fileID: 22402796, guid: e4c63fc874ed2ed42b7808b1a310238a, type: 3}
       propertyPath: m_SizeDelta.x
@@ -3340,7 +3340,7 @@ Transform:
   - {fileID: 8959758145268111643}
   - {fileID: 1446291885}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1356572816
 GameObject:
@@ -3445,11 +3445,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1446291885}
   - component: {fileID: 1446291884}
-  - component: {fileID: 1446291883}
   - component: {fileID: 1446291882}
-  - component: {fileID: 1446291881}
+  - component: {fileID: 1446291883}
   - component: {fileID: 1446291880}
   - component: {fileID: 1446291879}
+  - component: {fileID: 1446291881}
   m_Layer: 0
   m_Name: InputType_Micro
   m_TagString: Untagged
